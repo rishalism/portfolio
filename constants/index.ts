@@ -217,9 +217,16 @@ export const projects = [
   {
     src: "/100xjobs.png",
     title: "100xjobs",
-    Link: 'https://www.100xjobs.com/',
+    Link: 'https://100x.jobs/',
     description:
       "100xJobs is a platform designed to match job seekers with the right opportunities. It offers a user-friendly experience for both job seekers and employers, allowing them to connect based on skills, experience, and job preferences. The platform simplifies job applications, making the process smoother for candidates and employers alike.",
+  },
+  {
+    src: "/chekin.png",
+    title: "EazyCheckin",
+    Link: 'https://eazycheck.in/',
+    description:
+      "ExpressCheckIn is a smart hotel check-in app that allows guests to check in instantly upon arrival by scanning a QR code. No more waiting at the front desk—just scan, verify, and access your room!"
   },
   {
     src: "/shoezy.png",
@@ -227,5 +234,19 @@ export const projects = [
     Link: 'https://shoezy-ecommerce.onrender.com/',
     description:
       "Shoezy is a fully-featured eCommerce website dedicated to buying and selling shoes. The platform includes both an admin panel for managing products, categories, and users, as well as a user-facing side with advanced features like authentication, cart management, and multiple payment options. With its user-friendly design and features like product search, filters, and order tracking, Shoezy enhances the online shopping experience.",
+  },
+  {
+    src: "/extension.png",
+    title: "100xjobs Extension",
+    Link: 'https://chromewebstore.google.com/detail/100x-jobs-tracker-keyword/cdajdkllejidncafegbgnaahdjhlobga',
+    description:
+      "This extension enables users to save job postings from platforms such as LinkedIn, Indeed, and other job portals.  It provides a match score, identifies relevant keywords, and offers actionable insights to optimize resumes for alignment with job descriptions. Additionally, it integrates seamlessly with the 100x.jobs app."
+  },
+  {
+    src: "/extension.png",
+    title: "100xjobs Extension",
+    Link: 'https://chromewebstore.google.com/detail/100x-jobs-tracker-keyword/cdajdkllejidncafegbgnaahdjhlobga',
+    description:
+      "This extension enables users to save job postings from platforms such as LinkedIn, Indeed, and other job portals.  It provides a match score, identifies relevant keywords, and offers actionable insights to optimize resumes for alignment with job descriptions. Additionally, it integrates seamlessly with the 100x.jobs app."
   },
 ]

@@ -31,7 +31,7 @@ const ProjectCard = ({ src, title, description, href }: Props) => {
       </CardContent>
       <CardFooter className="p-4 pt-0">
         <Link href={href} legacyBehavior>
-          <a className="w-full">
+          <a href={href} target="_blank" rel="noopener noreferrer" className="w-full">
             <Button variant="ghost" className="w-full  text-purple-500 hover:text-purple-400 hover:border-2 hover:border-white hover:bg-black">
               Learn More <ArrowRight className="ml-2 h-4 w-4" />
             </Button>

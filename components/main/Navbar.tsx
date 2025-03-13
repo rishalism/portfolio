@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -29,8 +29,9 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-5">
-          <FaLinkedin size={30} />
-          <FaInstagram />
+          <a href="https://www.linkedin.com/in/rishal-mohammed-up/" target="_blank" rel="noopener noreferrer"> <FaLinkedin className="text-white" size={30} />
+          </a>
+          <a href="https://www.github.com/rishalism/" target="_blank" rel="noopener noreferrer"> <FaGithub className="text-white" size={30} /></a>
         </div>
       </div>
     </div>
