@@ -205,7 +205,6 @@ export const Other_skill = [
 
 
 
-
 export const projects = [
   {
     src: "/sync.png",
@@ -215,38 +214,59 @@ export const projects = [
       "SYNC is a comprehensive project management tool tailored for developers, especially those working remotely. It streamlines project workflows with a dual interface: one for project managers to track and organize tasks, and another for team members to stay on top of their work. Key features include API testing, real-time feedback, and seamless integration with other project components, making it a go-to solution for efficient team collaboration.",
   },
   {
+    src: "/halora.png",
+    title: "Halora",
+    Link: 'https://halora.in/',
+    description:
+      "Halora is a smart hotel check-in app that allows guests to check in instantly upon arrival by scanning a QR code. No more waiting at the front desk—just scan, verify, and access your room!",
+  },
+  {
+    src: "/reflaire.jpg",
+    title: "Reflaire",
+    Link: 'https://app.reflaire.in/',
+    description:
+      "Reflaire is an AI-powered platform that generates virtual try-on images. Users can upload a model image and a garment image, and the system combines them to produce a realistic outfit preview. Perfect for fashion and e-commerce applications.",
+  },
+  {
     src: "/100xjobs.png",
     title: "100xjobs",
     Link: 'https://100x.jobs/',
     description:
-      "100xJobs is a platform designed to match job seekers with the right opportunities. It offers a user-friendly experience for both job seekers and employers, allowing them to connect based on skills, experience, and job preferences. The platform simplifies job applications, making the process smoother for candidates and employers alike.",
-  },
-  {
-    src: "/chekin.png",
-    title: "EazyCheckin",
-    Link: 'https://eazycheck.in/',
-    description:
-      "ExpressCheckIn is a smart hotel check-in app that allows guests to check in instantly upon arrival by scanning a QR code. No more waiting at the front desk—just scan, verify, and access your room!"
+      "100xJobs is a platform designed to match job seekers with the right opportunities. It offers a user-friendly experience for both job seekers and employers, allowing them to connect based on skills, experience, and preferences. The platform streamlines job applications for a better hiring experience.",
   },
   {
     src: "/shoezy.png",
     title: "Shoezy",
     Link: 'https://shoezy-ecommerce.onrender.com/',
     description:
-      "Shoezy is a fully-featured eCommerce website dedicated to buying and selling shoes. The platform includes both an admin panel for managing products, categories, and users, as well as a user-facing side with advanced features like authentication, cart management, and multiple payment options. With its user-friendly design and features like product search, filters, and order tracking, Shoezy enhances the online shopping experience.",
+      "Shoezy is a fully-featured eCommerce website dedicated to buying and selling shoes. It includes an admin panel for managing products, categories, and users, and a user-facing interface with features like authentication, cart, wallet, PayPal integration, order tracking, and product filtering for a seamless shopping experience.",
   },
   {
     src: "/extension.png",
     title: "100xjobs Extension",
     Link: 'https://chromewebstore.google.com/detail/100x-jobs-tracker-keyword/cdajdkllejidncafegbgnaahdjhlobga',
     description:
-      "This extension enables users to save job postings from platforms such as LinkedIn, Indeed, and other job portals.  It provides a match score, identifies relevant keywords, and offers actionable insights to optimize resumes for alignment with job descriptions. Additionally, it integrates seamlessly with the 100x.jobs app."
+      "This browser extension helps users save job listings from platforms like LinkedIn and Indeed. It calculates a match score, highlights relevant keywords, and provides insights to improve resumes. It also integrates directly with the 100x.jobs platform.",
   },
   {
-    src: "/extension.png",
-    title: "100xjobs Extension",
-    Link: 'https://chromewebstore.google.com/detail/100x-jobs-tracker-keyword/cdajdkllejidncafegbgnaahdjhlobga',
+    src: "/nextjsdashboard.png",
+    title: "Nextjs Dashboard",
+    Link: 'https://nextjs-daashboard.vercel.app/',
     description:
-      "This extension enables users to save job postings from platforms such as LinkedIn, Indeed, and other job portals.  It provides a match score, identifies relevant keywords, and offers actionable insights to optimize resumes for alignment with job descriptions. Additionally, it integrates seamlessly with the 100x.jobs app."
+      "A basic dashboard built with Next.js, created as a learning project to understand the framework. It explores layout structuring, routing, and component usage in Next.js.",
+  },
+  {
+    src: "/todo.png",
+    title: "To Do List",
+    Link: 'https://rishalism.github.io/To-DO-List/',
+    description:
+      "A simple and functional To-Do List app that uses localStorage to persist tasks. Users can add, mark complete, and delete tasks. Great for getting started with JavaScript and DOM manipulation.",
+  },
+  {
+    src: "/prada.png",
+    title: "Prada",
+    Link: 'https://rishalism.github.io/prada.github/',
+    description:
+      "A clone of the Prada homepage built using only HTML and CSS. This project was created to practice layout, typography, and responsive design fundamentals.",
   },
 ]
